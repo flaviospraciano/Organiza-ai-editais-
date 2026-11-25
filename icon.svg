@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#11806A"/><stop offset="1" stop-color="#063A30"/></linearGradient>
+ <radialGradient id="sol" cx=".45" cy=".4" r=".7"><stop offset="0" stop-color="#FFD45C"/><stop offset="1" stop-color="#F29E1F"/></radialGradient>
+ <linearGradient id="mad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B8742F"/><stop offset="1" stop-color="#7A3F14"/></linearGradient>
+ <radialGradient id="cab" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#C9732C"/><stop offset="1" stop-color="#6E3510"/></radialGradient>
+</defs><rect width="512" height="512" rx="112" fill="url(#bg)"/><g transform="translate(256,256) scale(1.0) translate(-256,-256)">
+  <circle cx="262" cy="262" r="168" fill="url(#sol)"/>
+  <circle cx="262" cy="262" r="168" fill="none" stroke="#FFE08A" stroke-opacity=".55" stroke-width="3"/>
+  <!-- arame -->
+  <line x1="322" y1="78" x2="150" y2="436" stroke="#FFF6E0" stroke-width="5" stroke-linecap="round"/>
+  <!-- verga -->
+  <path d="M322 78 Q478 300 150 436" fill="none" stroke="#3B1D08" stroke-opacity=".35" stroke-width="30" stroke-linecap="round" transform="translate(4,6)"/>
+  <path d="M322 78 Q478 300 150 436" fill="none" stroke="url(#mad)" stroke-width="26" stroke-linecap="round"/>
+  <path d="M322 78 Q478 300 150 436" fill="none" stroke="#FFFFFF" stroke-opacity=".22" stroke-width="6" stroke-linecap="round" transform="translate(-4,-3)"/>
+  <!-- faixas -->
+  <g fill="none" stroke-width="28">
+    <path d="M322 78 Q478 300 150 436" pathLength="1000" stroke="#1C1209" stroke-dasharray="34 3000" stroke-dashoffset="-70"/>
+    <path d="M322 78 Q478 300 150 436" pathLength="1000" stroke="#F4B630" stroke-dasharray="12 3000" stroke-dashoffset="-112"/>
+    <path d="M322 78 Q478 300 150 436" pathLength="1000" stroke="#1C1209" stroke-dasharray="22 3000" stroke-dashoffset="-300"/>
+  </g>
+  <!-- cordão que prende a cabaça -->
+  <path d="M203 334 Q236 326 268 336" stroke="#1C1209" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <circle cx="203" cy="334" r="7" fill="#1C1209"/>
+  <!-- cabaça -->
+  <circle cx="306" cy="388" r="66" fill="url(#cab)"/>
+  <ellipse cx="326" cy="394" rx="34" ry="38" fill="#3A1C08"/>
+  <ellipse cx="322" cy="390" rx="30" ry="34" fill="#22100A"/>
+  <path d="M262 352 a66 66 0 0 1 40 -30" stroke="#FFFFFF" stroke-opacity=".35" stroke-width="8" fill="none" stroke-linecap="round"/>
+</g></svg>
